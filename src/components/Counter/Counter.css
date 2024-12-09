@@ -1,0 +1,20 @@
+.counter-res {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.counter-btn {
+  display: block;
+  min-width: 160px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background-color: rgb(39, 74, 139);
+  font-size: 20px;
+}
+
+.counter-btn:hover,
+.counter-btn:focus {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}

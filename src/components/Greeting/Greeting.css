@@ -1,0 +1,17 @@
+.greeting-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.greeting-input {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.greeting-msg {
+  font-size: 18px;
+  font-weight: bold;
+}

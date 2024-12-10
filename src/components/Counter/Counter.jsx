@@ -10,7 +10,7 @@ export default function Counter() {
 
   return (
     <>
-      <p className="counter-res">{counter}</p>
+      <p className="counter-res">Number of clicks: {counter}</p>
       <button type="button" className="counter-btn" onClick={handleClick}>
         Click
       </button>

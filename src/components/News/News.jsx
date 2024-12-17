@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Input from "../components/Input/Input";
 
 export default function News() {
   const [news, setNews] = useState([]);
@@ -18,7 +17,7 @@ export default function News() {
 
   return (
     <>
-      <Input type="text" placeholder="filter" onChange={(evt) => setQuery(evt.target.value)} />
+      <input type="text" placeholder="filter" onChange={(evt) => setQuery(evt.target.value)} />
       <ul>
         {filtredNews.map((article, index) => {
           return (
